@@ -1,0 +1,21 @@
+[submodule "src/roboy_managing_node"]
+	path = src/roboy_managing_node
+	url = https://github.com/Roboy/roboy_managing_node
+[submodule "src/common_utilities"]
+	path = src/common_utilities
+	url = https://github.com/Roboy/common_utilities
+[submodule "src/roboy_communication"]
+	path = src/roboy_communication
+	url = https://github.com/Roboy/roboy_communication
+[submodule "src/roboy_powerlink"]
+	path = src/roboy_powerlink
+	url = https://github.com/Roboy/roboy_powerlink
+[submodule "src/roboy_dep"]
+	path = src/roboy_dep
+	url = https://github.com/morpana/roboy_dep
+[submodule "src/dep_gui"]
+	path = src/dep_gui
+	url = https://github.com/morpana/dep_gui
+[submodule "src/dep_mem_node"]
+	path = src/dep_mem_node
+	url = https://github.com/morpana/dep_mem_node
