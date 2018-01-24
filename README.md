@@ -33,7 +33,7 @@ Create an installation folder and clone the repository:
 
 -   git clone https://github.com/morpana/Framework
 
--   git submodule update –init –recursive
+-   git submodule update --init --recursive
 
 Installing PowerLink
 --------------------
@@ -43,13 +43,13 @@ Build the openPowerLink libraries for both “debug” and "release.
 -   cd
     {base\_dir}/framework/src/roboy\_powerlink/openPowerLink/stack/build/linux
 
--   cmake -DCMAKE\_BUILD\_TYPE$=$Debug ../..
+-   cmake -DCMAKE\_BUILD\_TYPE=Debug ../..
 
 -   make
 
 -   make install
 
--   cmake -DCMAKE\_BUILD\_TYPE$=$Release ../..
+-   cmake -DCMAKE\_BUILD\_TYPE=Release ../..
 
 -   make
 
@@ -72,7 +72,7 @@ Data
 
 A set of existing obtained behaviors is stored in
 src/dep\_gui/dep\_matrices. To use these behaviors, copy the
-dep\_matrices folder to $\sim$/dep\_matrices (i.e. ’home’ folder).
+dep\_matrices folder to ~/dep\_matrices (i.e. ’home’ folder).
 
 The data for the weights of the neural networks in the dep\_mem\_node
 folder need to be downloaded and placed in the correct folder. (This is
@@ -114,7 +114,7 @@ The correct IP belongs to “Gandalf”. Now connect to the FPGA via SSH:
 
 Make sure the master node is set correctly in .bashrc:
 
--   export ROS\_MASTER\_URI$=$http://ROS\_MASTER\_IP:11311
+-   export ROS\_MASTER\_URI=http://ROS\_MASTER\_IP:11311
 
 where “ROS\_MASTER\_IP” refers to the IP of the computer running
 roscore. Now run the controller:
